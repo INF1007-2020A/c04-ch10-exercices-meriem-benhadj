@@ -1,0 +1,16 @@
+test_closest (__main__.TestExercice) ... ok
+test_coordinates (__main__.TestExercice) ... ERROR
+test_linear_values (__main__.TestExercice) ... ok
+
+======================================================================
+ERROR: test_coordinates (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 26, in test_coordinates
+    output = exercice.coordinate_conversion(cartesian_coordinates)
+AttributeError: module 'exercice' has no attribute 'coordinate_conversion'
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (errors=1)
